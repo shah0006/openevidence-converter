@@ -16,7 +16,7 @@ Convert OpenEvidence web clipper markdown output to clean, vault-compliant Obsid
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/openevidence-converter.git
+git clone https://github.com/shah0006/openevidence-converter.git
 cd openevidence-converter
 
 # No dependencies required - uses Python 3 standard library only
@@ -152,7 +152,7 @@ curl -o "media/image-1.png" "https://storage.googleapis.com/..."
 # - Add appropriate aliases
 
 # 4. Citation Sculptor (Vancouver formatting)
-# See: https://github.com/YOUR_USERNAME/CitationSculptor
+# See: https://github.com/shah0006/CitationSculptor
 python3 citation_sculptor.py "Converted.md" --verbose --no-backup
 
 # 5. Verify output
@@ -163,7 +163,7 @@ python3 citation_sculptor.py "Converted.md" --verbose --no-backup
 
 ## Integration with Citation Sculptor
 
-This converter produces references in a format that [Citation Sculptor](https://github.com/YOUR_USERNAME/CitationSculptor) can process:
+This converter produces references in a format that [Citation Sculptor](https://github.com/shah0006/CitationSculptor) can process:
 
 **Before Citation Sculptor:**
 ```markdown
